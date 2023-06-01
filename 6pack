@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Методы чисел</h2>
+
+<p>Метод toString() преобразует число в строку.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 123;
+document.getElementById("demo").innerHTML =
+  x.toString() + "<br>" +
+   (123).toString() + "<br>" +
+   (100 + 23).toString();
+</script>
+
+</body>
+</html>
